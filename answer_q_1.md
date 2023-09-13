@@ -16,7 +16,8 @@ Now, for 1 minute:
 
 K * N * log(N) = 60,000 ms
 
-(0.5 ms / (100 * log(100))) * N * log(N) = 60,000 ms ```
+(0.5 ms / (100 * log(100))) * N * log(N) = 60,000 ms 
+```
 
 c:  Quadratic: If the algorithm is quadratic, it has a time complexity of O(N^2). Similarly, find the largest N using the proportion:
 ```
@@ -28,7 +29,8 @@ x = (0.5 ms / 100^2) * N^2
 
 N^2 = 60,000 ms / 0.5 ms = 120,000
 
-N = sqrt(120,000) ≈ 346.41 ```
+N = sqrt(120,000) ≈ 346.41 
+```
 
 d: Cubic: If the algorithm is cubic, it has a time complexity of O(N^3). Similarly, find the largest N using the proportion:
 ```
