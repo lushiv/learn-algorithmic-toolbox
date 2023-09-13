@@ -7,9 +7,8 @@ x = (0.5 ms / 100) * N = 0.005 ms * N
 Now, to find the largest N for 1 minute:
 0.005 ms * N = 60,000 ms
 N = 60,000 ms / 0.005 ms = 12,000,000```
-
-b: b. O(N log N): To solve this, you need to know the constant factor in the O(N log N) notation. Assuming it takes 0.5 ms for N = 100:
 ```
+b: b. O(N log N): To solve this, you need to know the constant factor in the O(N log N) notation. Assuming it takes 0.5 ms for N = 100:
 K = 0.5 ms / (100 * log(100))
 
 Now, for 1 minute:
@@ -17,9 +16,8 @@ Now, for 1 minute:
 K * N * log(N) = 60,000 ms
 
 (0.5 ms / (100 * log(100))) * N * log(N) = 60,000 ms```
-
-c:  Quadratic: If the algorithm is quadratic, it has a time complexity of O(N^2). Similarly, find the largest N using the proportion:
 ```
+c:  Quadratic: If the algorithm is quadratic, it has a time complexity of O(N^2). Similarly, find the largest N using the proportion:
 0.5 ms / 100^2 = x ms / N^2
 
 x = (0.5 ms / 100^2) * N^2
@@ -30,9 +28,8 @@ N^2 = 60,000 ms / 0.5 ms = 120,000
 
 N = sqrt(120,000) ≈ 346.41```
 
-
-d: Cubic: If the algorithm is cubic, it has a time complexity of O(N^3). Similarly, find the largest N using the proportion:
 ```
+d: Cubic: If the algorithm is cubic, it has a time complexity of O(N^3). Similarly, find the largest N using the proportion:
 0.5 ms / 100^3 = x ms / N^3
 
 x = (0.5 ms / 100^3) * N^3
